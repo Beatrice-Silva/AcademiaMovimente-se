@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Movimenta-se</title>
+</head>
+<body>
+
+    <header>
+
+        <h1> Academia Movimenta-se</h1>
+        <h2>Matrícula abaixo</h2>
+    </header>
+
+    <main>
+        <section>
+            <form>
+                <h3>Dados do aluno:</h3>
+                <article>
+                    <br>
+
+                    <label for="nome">Nome:</label>
+                    <input type="button" placeholder="nome completo" name="nome" id="nome" pattern="11" required>
+
+                    <label for="cpf">CPF:</label>
+                    <input type="number" placeholder="cpf" name="cpf" id="cpf" pattern="11" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" placeholder="usuario@gmail.com" name="email" id="email" required>
+
+                    <label for="data">Data de nascimento:</label>
+                    <input type="date" name="data" id="data" required>
+
+                    <label for="peso">Peso:</label>
+                    <input type="number" name="peso" id="peso" step="0.1" required>
+
+                    <br>
+
+                </article>
+                <article>
+                    <h3>Plano:</h3>
+                    
+                    <br>
+                    
+                    <label for="plano">Mensal:</label>
+                    <input type="radio" name="plano" id="plano" required>
+                    
+                    
+                    <label for="plano">Trimestral:</label>
+                    <input type="radio" name="plano" id="plano" required>
+                    
+
+                    <label for="plano">Anual:</label>
+                    <input type="radio" name="plano" id="plano" required>
+
+                    <br>
+
+                    <h3>Modalidade:</h3>
+
+                    <label for="modalidades">Musculação:</label>
+                    <input type="checkbox" name="plano" id="modalidades" required>
+                    
+                    
+                    <label for="modalidades">Pilates:</label>
+                    <input type="checkbox" name="plano" id="modalidades" required>
+                    
+                    
+                    <label for="modalidades">Spinning:</label>
+                    <input type="checkbox" name="plano" id="modalidades" required>
+                    
+
+                    <label for="modalidades">Natação:</label>
+                    <input type="checkbox" name="plano" id="modalidades" required>
+                    
+                    <br>
+
+
+                </article>
+                
+                <article>
+
+                    <h3>Horário:</h3>
+
+                    <label for="horario">horário preferido:</label>
+                    <input id="horario" type="time" name="horario" min="06:00" max="22:00">
+    
+                </article>
+
+                <button type="submit">Enviar</button>
+
+                
+            </form>
+
+        </section>
+
+
+    </main>
+    
+    <footer>
+        
+        <h2>
+
+        </h2>
+
+    </footer>
+</body>
+</html>
